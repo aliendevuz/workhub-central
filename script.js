@@ -66,3 +66,35 @@ navbar.addEventListener('mouseup', (e) => {
 navbar.addEventListener('mouseleave', () => {
     isDragging = false;
 });
+
+
+const questions = document.querySelectorAll('.faq-question');
+
+questions.forEach(function (question) {
+    question.addEventListener('click', function () {
+        const answer = this.nextElementSibling;
+
+        // Barcha javoblarni yopish
+        document.querySelectorAll('.faq-answer').forEach(function (ans) {
+            if (ans !== answer) {
+                ans.classList.remove('show');
+            }
+        });
+
+        // Javobni ko‘rsatish yoki yashirish
+        answer.classList.toggle('show');
+    });
+});
+
+
+// const questions = document.querySelectorAll('.faq-question');
+
+// questions.forEach(function (question) {
+//     question.addEventListener('click', function () {
+//         document.querySelectorAll('.faq-answer').forEach(function (ans) {
+//             ans.style.display = 'none';
+//         });
+//         this.nextElementSibling.style.display = 'block';
+//     });
+// });
+
