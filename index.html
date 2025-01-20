@@ -26,11 +26,11 @@
                         <li><a href="#pricing" class="amenu td-n c-w">Pricing</a></li>
                         <li><a href="#faq" class="amenu td-n c-w">FAQ</a></li>
                     </ul>
-                    <button class="menu-contact c-w bc-main-btn b-0 pi-16px pb-10px br-10px fs-12r">Contact Us</button>
+                    <a href="#contact" class="menu-contact amenu c-w bc-main-btn b-0 pi-16px pb-10px br-10px fs-12r">Contact Us</a>
                 </div>
                 <div id="menu-btn" class="fas fa-bars"></div>
             </div>
-            <button class="contact c-w bc-main-btn b-0 pi-16px pb-10px br-10px fs-12r">Contact Us</button>
+            <a href="#contact" class="contact amenu c-w bc-main-btn b-0 pi-16px pb-10px br-10px fs-12r">Contact Us</a>
         </header>
         <section id="hero" class="p-r w-100p h-100">
             <div class="p-a bi-hero w-100p h-100p">
@@ -181,67 +181,85 @@
             </div>
         </section>
 
+        <section id="contact" class="bc-yellow d-f fd-c g-32px">
+            <div class="pb-80px d-f jc-c">
+                <h2 class="fs-80r">CONTACT US</h2>
+            </div>
+            <form action="#" class="d-f fd-c g-32px pi-80px" style="max-width: 1200px; margin-inline: auto;">
+                <div class="d-f g-32px w-100p mobile-column">
+                    <input type="text" placeholder="First Name" name="first_name" required pattern="[A-Za-z\s]{2,50}" title="Please enter a valid first name" class="w-100p b-0 bc-b c-w pi-10px pb-10px fs-12r">
+                    <input type="text" placeholder="Last Name" name="last_name" required pattern="[A-Za-z\s]{2,50}" title="Please enter a valid last name" class="w-100p b-0 bc-b c-w pi-10px pb-10px fs-12r">
+                </div>
+                <input type="email" placeholder="Email Address" name="email" required class="f-1 b-0 bc-b c-w pi-10px pb-10px fs-12r">
+                <input type="tel" placeholder="Phone" name="phone" required pattern="\\+998[0-9]{9}" title="Please enter a valid phone number" class="f-1 b-0 bc-b c-w pi-10px pb-10px fs-12r">
+                <textarea name="message" id="message" class="w-100p h-340px b-0 bc-b c-w pi-10px pb-10px fs-12r" placeholder="Message" required style="resize: vertical;"></textarea>
+                <button type="submit" class="bc-w pi-40px fs-12r pb-16px br-32px" style="align-self: flex-start;">Submit</button>
+                <p class="">We aim to respond to all inquiries within 24 business hours. For the fastest response, please include your preferred membership plan of interest and any specific questions you may have. One of our workspace specialists will be happy to assist you further.</p>
+            </form>            
+            <div></div>
+        </section>
+
         <section id="faq" class="d-f fd-c fw-n pb-120px bc-main g-60px">
             <h2 class="mi-80px fs-60r c-w">FAQ'S</h2>
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-question">Work Hub qanday xizmatlarni taklif qiladi?</button>
-                    <div class="faq-answer">Work Hub turli xil ofis yechimlarini taklif qiladi, jumladan Hot Desk, Dedicated Desk va Private Office rejalari.</div>
+                    <button class="faq-question">What services does Work Hub offer?</button>
+                    <div class="faq-answer">Work Hub offers various office solutions, including Hot Desk, Dedicated Desk, and Private Office plans.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Ish soatlari qanday?</button>
-                    <div class="faq-answer">Work Hub har kuni 24/7 ishlaydi, shuningdek, resepsiyon xizmatlari ish kunlari 9:00 dan 18:00 gacha faoliyat yuritadi.</div>
+                    <button class="faq-question">What are the working hours?</button>
+                    <div class="faq-answer">Work Hub operates 24/7, with reception services available from 9:00 AM to 6:00 PM on weekdays.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Obuna rejalari qanday farqlanadi?</button>
-                    <div class="faq-answer">Hot Desk - umumiy maydonda joylashish, Dedicated Desk - belgilangan joy va Private Office - shaxsiy ofis.</div>
+                    <button class="faq-question">How do the subscription plans differ?</button>
+                    <div class="faq-answer">Hot Desk offers shared seating, Dedicated Desk provides a fixed spot, and Private Office offers a personal office.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Internet tezligi qanday?</button>
-                    <div class="faq-answer">Work Hub yuqori tezlikdagi 1 Gbps internet ulanishini taqdim etadi.</div>
+                    <button class="faq-question">What is the internet speed?</button>
+                    <div class="faq-answer">Work Hub provides high-speed 1 Gbps internet connectivity.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Qanday qulayliklar mavjud?</button>
-                    <div class="faq-answer">Biz mijozlarga bepul kofe, printer, konferensiya xonalari va dam olish zonalarini taqdim etamiz.</div>
+                    <button class="faq-question">What amenities are available?</button>
+                    <div class="faq-answer">We offer free coffee, printing services, conference rooms, and relaxation zones.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">A'zolikni qanday bekor qilish mumkin?</button>
-                    <div class="faq-answer">A'zolikni bekor qilish uchun shaxsiy hisobingizga kiring va "Bekor qilish" tugmasini bosing yoki mijozlarga xizmat ko'rsatish bo'limiga murojaat qiling.</div>
+                    <button class="faq-question">How can I cancel my membership?</button>
+                    <div class="faq-answer">To cancel your membership, log in to your account and click the "Cancel" button, or contact customer support.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Mehmonlarni olib kelish mumkinmi?</button>
-                    <div class="faq-answer">Ha, siz mehmonlarni olib kelishingiz mumkin, lekin oldindan resepsiyonga xabar berishingiz lozim.</div>
+                    <button class="faq-question">Can I bring guests?</button>
+                    <div class="faq-answer">Yes, you can bring guests, but you must inform the reception in advance.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Avtoturargoh mavjudmi?</button>
-                    <div class="faq-answer">Ha, Work Hub mijozlari uchun bepul avtoturargoh mavjud.</div>
+                    <button class="faq-question">Is parking available?</button>
+                    <div class="faq-answer">Yes, free parking is available for Work Hub members.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Xavfsizlik choralari qanday?</button>
-                    <div class="faq-answer">Biz 24/7 video kuzatuv va karta bilan kirish tizimini taklif qilamiz.</div>
+                    <button class="faq-question">What security measures are in place?</button>
+                    <div class="faq-answer">We provide 24/7 video surveillance and keycard access systems.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Ko‘chmas mulk agentlari bilan ishlash mumkinmi?</button>
-                    <div class="faq-answer">Ha, Work Hub ko‘chmas mulk agentlari va kompaniyalar bilan hamkorlik qiladi.</div>
+                    <button class="faq-question">Can I collaborate with real estate agents?</button>
+                    <div class="faq-answer">Yes, Work Hub collaborates with real estate agents and companies.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Ko-working maydoniga qanday kirish mumkin?</button>
-                    <div class="faq-answer">Kirish uchun shaxsiy hisob yarating va Work Hub mobil ilovasi orqali QR kod yordamida ofisga kiring.</div>
+                    <button class="faq-question">How can I access the coworking space?</button>
+                    <div class="faq-answer">To access the space, create an account and use the Work Hub mobile app to scan the QR code.</div>
                 </div>
                 
                 <div class="faq-item">
-                    <button class="faq-question">Harajatlarni qanday to‘lash mumkin?</button>
-                    <div class="faq-answer">To‘lovlarni onlayn tarzda kredit/debet kartalari yoki bank o'tkazmalari orqali amalga oshirish mumkin.</div>
+                    <button class="faq-question">How can I make payments?</button>
+                    <div class="faq-answer">Payments can be made online via credit/debit cards or bank transfers.</div>
                 </div>
                 
             </div>
@@ -256,6 +274,7 @@
                             <a class="c-w amenu" href="#hero">Home</a>
                             <a class="c-w amenu" href="#about">About</a>
                             <a class="c-w amenu" href="#pricing">Pricing</a>
+                            <a class="c-w amenu" href="#contact">Contact</a>
                             <a class="c-w amenu" href="#faq">FAQ</a>
                         </div>
                         <div class="d-f fd-c g-20px">
